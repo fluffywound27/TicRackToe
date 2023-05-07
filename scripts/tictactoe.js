@@ -19,7 +19,8 @@ function playAgain() {
   playerPlaying.innerHTML = ('RED');
   playerPlaying.classList.remove('blue-player');
   winnerBoxDisplay.classList.add('win-alert-visiblity');
-
+  winnerBoxDisplay.classList.remove('blue-player');
+  winnerBoxDisplay.classList.remove('red-player');
   gridTable = [
   ['1', '2', '3'], //0
   ['4', '5', '6'], //1
